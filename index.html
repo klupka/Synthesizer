@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/tone"></script>
+    <link rel="stylesheet" href="css/keyboard.css">
+    <title>Synthesizer App</title>
+  </head>
+  <body>
+    <div class="screen">
+
+
+    <!--
+    <div class="center">
+      <span>Current waveform: </span>
+      <select name="waveform">
+        <option value="sine">Sine</option>
+        <option value="square" selected>Square</option>
+        <option value="sawtooth">Sawtooth</option>
+        <option value="triangle">Triangle</option>
+        <option value="custom">Custom</option>
+      </select>
+    </div>
+    !-->
+  <ul id="piano">
+    <li data-note="C4" class="key">
+      <div data-note="C#4" class="black-key"><!--R--></div>
+      <!--D!-->
+    </li>
+    <li data-note="D4" class="key">
+      <div data-note="D#4" class="black-key"><!--T--></div>
+      <!--F!-->
+    </li>
+    <li data-note="E4" class="key">
+      <!--G!-->
+    </li>
+    <li data-note="F4" class="key">
+      <div data-note="F#4" class="black-key"><!--U--></div>
+      <!--H!-->
+    </li>
+    <li data-note="G4" class="key">
+      <div data-note="G#4" class="black-key"><!--I--></div>
+      <!--J!-->
+    </li>
+    <li data-note="A4" class="key">
+      <div data-note="A#4" class="black-key"><!--O--></div>
+      <!--K!-->
+    </li>
+    <li data-note="B4" class="key">
+      <!--L!-->
+    </li>
+  </ul>
+</div>
+</body>
+
+<script type="text/javascript" src="scripts/keyboard.js"></script>
+
+</html>
